@@ -2,7 +2,7 @@ const classNames = require('classnames');
 const { CssSelectorParser } = require('css-selector-parser');
 const map = require('unist-util-map');
 const rangeParser = require('parse-numeric-range');
-const createHighlighter = require('./highlight');
+const createHighlighter = require('./highlight.js');
 
 const h = (type, attrs = {}, children = []) => {
   return {

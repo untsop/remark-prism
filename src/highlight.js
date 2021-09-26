@@ -11,6 +11,7 @@ const getLoader = require('prismjs/dependencies');
 const PLUGINS = [
   'autolinker',
   'command-line',
+  'line-highlight',
   'data-uri-highlight',
   'diff-highlight',
   'inline-color',
